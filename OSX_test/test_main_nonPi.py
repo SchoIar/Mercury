@@ -1,5 +1,8 @@
 import unittest
 from unittest.mock import MagicMock, patch
+import os
+os.environ['PYTHONDONTWRITEBYTECODE'] = '1'
+
 
 mocked_modules = {
     'RPi.GPIO': MagicMock(),

@@ -2,6 +2,9 @@ import time
 import RPi.GPIO as GPIO
 from adafruit_servokit import ServoKit
 from RpiMotorLib import RpiMotorLib
+import os
+os.environ['PYTHONDONTWRITEBYTECODE'] = '1'
+
 
 SERVO_CHANNEL = 0
 GPIO_PINS = [18, 23, 24, 25]
