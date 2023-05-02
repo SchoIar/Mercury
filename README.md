@@ -5,9 +5,9 @@ This Python script is designed to test the motor functions of a Raspberry Pi 4 c
 ## Prerequisites
 
 Install the required libraries:
-```pip3 install RPi.GPIO
-pip3 install adafruit-circuitpython-servokit
-pip3 install RpiMotorLib```
+`pip3 install RPi.GPIO`
+`pip3 install adafruit-circuitpython-servokit`
+`pip3 install RpiMotorLib`
 
 ## Hardware Setup
 
