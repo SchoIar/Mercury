@@ -26,11 +26,12 @@ GPIO_PINS = [18, 23, 24, 25]  # Change these to the GPIO pins connected to your 
 
 Run the `main.py` script to test motor function
 
+NOTE: **This will only run on a Raspberry Pi system, as the RPi.GPIO library will not work on anything else as it is specifically designed for Raspberry Pi systems**
+
 `python3 main.py`
 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
 
 
